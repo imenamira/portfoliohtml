@@ -1,0 +1,132 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+     
+       width: 100%;
+      background: darkred;
+       padding: 5px;
+
+    
+  }
+  .navmenu{
+      
+      
+      display: flex;
+      background-color: darkred;
+     
+      height:50px ;
+      width: 100%;
+      justify-content: space-between;
+      
+      align-items: center;
+      color: white;
+     
+
+  }
+  .titremenu{
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+     
+      
+  
+      
+  }
+  .listmenu{
+    display: flex;
+    justify-content: center;
+     list-style-type: none;
+    
+  }
+  .listmenu > li >a {
+    
+      color: white;
+    margin: 0 20px;
+    font-weight: 600;
+    text-decoration: none;
+   
+  }
+  .listmenu > li > a:hover {
+    border-bottom: 5px solid rgba(58, 7, 7);
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  @media (max-width: 700px){
+      
+   .navmenu > h1{
+        
+        color: cornflowerblue ;
+        font-size: 20px;
+        align-content: center;
+       
+       
+             
+        }
+   .listmenu > li > a {
+  
+     
+    flex-flow: column wrap;
+
+  color: yellow;
+  
+
+        }
+    }
+    .intro {
+       display: flex
+       grid-template-columns: 1fr 2fr;
+           
+       grid-gap: 1cm;
+       grid-auto-rows: minmax(100px,auto);
+    }
+    .intro > div > img {
+       background: white;
+       padding: 5px;
+       margin: 20px;
+    }
+    .intro > div > ul {
+       background: rgb(211, 203, 203);
+       border: 5 gray solid;
+       border-radius: 15px;
+       padding: 20px;
+       margin: 20px;
+       
+    }
+    .intro > div  > h1{
+      padding: 20px;
+       margin: 20px;
+    }
+   
+    .biographie{
+      display: flex;
+      flex-direction: column;
+    }    
+    .biographie > h1 {
+      font-size: 40px;
+      font-style: italic;
+      color: red ;
+      text-align: left;
+      grid-row: 1/2;
+
+    }
+  .biographie > article{
+      
+    }
+    .biographie > article  >p  {
+      background : grey;
+    }
+    .biographie > article >  h3 {
+     color: rgb(56, 2, 29);
+     font-size: 20px;
+      font-style: italic;
+    }
+     .biographie >article > image {
+     
+     }
+    
+
+
+        
+    
